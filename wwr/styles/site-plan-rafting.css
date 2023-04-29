@@ -16,8 +16,8 @@ Fonts are separated by a & */
   --paragraph-font: "Inter Tight", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #7bc4d5;  /* headlines on a white background */ 
-  --headline-color-on-color: #F5DE73; /* headlines on a colored background */ 
+  --headline-color-on-white: #144365;  /* headlines on a white background */ 
+  --headline-color-on-color: #7bc4d5; /* headlines on a colored background */ 
   --paragraph-color-on-white: #144365; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #FFFFFF; /* paragraph text on a colored background */ 
   --paragraph-background-color: #144365  ; 
