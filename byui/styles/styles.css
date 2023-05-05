@@ -10,13 +10,34 @@
 }
 
 img {
-    width: 400%;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 }
 
 p {
-    width: 400%;
+    width: 80%;
 }
 
 a {
     font-size: 1.5em;
+}
+
+/* Put a border around every element */
+* {
+    border: 2px solid blue;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav, footer {
+    text-align: center;
+}
+
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
 }
