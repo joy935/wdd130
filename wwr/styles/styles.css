@@ -1,27 +1,21 @@
+/* width, margin and height */
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
+nav,  a {text-align: center;}
+#hero-msg h1 {text-align: center;}
+#hero-msg h4 {text-align: center;}
+.button-box {text-align: center;}
+main section {text-align: center;}
+#background {height: 725px;}
 
-nav,  a {
-    text-align: center; 
-}
-
-#hero-msg h1 {
-    text-align: center; 
-}
-
-#hero-msg h4 {
-    text-align: center; 
-}
-
-.button-box {
-    text-align: center;
-}
-
-main section {
-    text-align: center;
-}
-#background {
-    height: 725px;
-}
+/* colors */
+body {background-color: white;}
+header{background-color: rgba(100,149,237, .7);}
+nav a:hover{background-color: aqua;}
+.book, .join {background-color: blue;}
+.book:hover, .join:hover {background-color: aquamarine;}
+#background{background-color: blueviolet;}
+.msg {background-color: brown;}
+footer {background-color: #144365;}
