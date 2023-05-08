@@ -12,10 +12,10 @@ main section {text-align: center;}
 
 /* colors */
 body {background-color: white;}
-header{background-color: rgba(100,149,237, .7);}
-nav a:hover{background-color: aqua;}
-.book, .join {background-color: blue;}
-.book:hover, .join:hover {background-color: aquamarine;}
-#background{background-color: blueviolet;}
-.msg {background-color: brown;}
-footer {background-color: #144365;}
+header{background-color: rgba(130,206,235, .30);}
+nav a:hover{background-color: #7BC4D5;}
+.book, .join {background-color: white;}
+.book:hover, .join:hover {background-color: #7BC4D5;}
+#background{background-color: grey;}
+.msg {background-color: grey;}
+footer {background-color: rgba(130,206,235, .30)}
