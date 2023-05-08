@@ -10,12 +10,12 @@ nav,  a {text-align: center;}
 main section {text-align: center;}
 #background {height: 725px;}
 
-/* colors */
+/* background colors */
 body {background-color: white;}
-header{background-color: rgba(130,206,235, .30);}
-nav a:hover{background-color: #7BC4D5;}
-.book, .join {background-color: white;}
-.book:hover, .join:hover {background-color: #7BC4D5;}
-#background{background-color: grey;}
-.msg {background-color: grey;}
-footer {background-color: rgba(130,206,235, .30)}
+header{background-color: rgba(130,206,235, .80);}
+nav a:hover{background-color: #F5DE73;}
+.book, .join {background-color: #144365;}
+.book:hover, .join:hover {background-color: #FFFFFF;}
+#background{background-color: #144365;}
+.msg {background-color: #144365;}
+footer {background-color: rgba(130,206,235, .80)}
