@@ -69,13 +69,13 @@ footer a {
     color:#144365;
     text-decoration: none;
 }
-footer a:hoover {
+footer a:hover {
     color:white;
 }
 footer p {
     font-size: 1.2em;
 }
-footer p a:hoover {
+footer p a:hover {
     text-decoration: underline;
 }
 
