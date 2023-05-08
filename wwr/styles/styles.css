@@ -72,6 +72,12 @@ footer a {
 footer a:hoover {
     color:white;
 }
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hoover {
+    text-decoration: underline;
+}
 
 /* few widths */
 .logo {
