@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+:root {
+    --heading-font: Roboto
+}
+body {
+    background-color: pink;
+    color: white;
+    text-align: center;
+}
+
+h1, ol {
+    font-family: var(--heading-font);
+}
+
+h1:hover {
+    color: black;
+}
+
+ol {
+    color: black;
+}
+
+ol.center li {
+    text-align: left;
+    margin-left: 20%;
+}
+
+.center {
+    list-style-type: inside;
+}
+
+p {
+    width: 450px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px;
+    text-align: center;
+    margin-bottom: 1.3em;
+}
+
+
+h2 {
+    width: 210px;
+    margin:0 auto;
+}
+
+.quote {
+    margin-bottom: 1.3em;
+    text-align: center;
+}
+
+.signature {
+    color: black;
+}
