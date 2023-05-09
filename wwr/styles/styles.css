@@ -1,4 +1,4 @@
-/* width, margin and height */
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -19,13 +19,13 @@ main section {
 }
 #background {
     height: 725px;
+    background-color: #144365;
 }
 
-/* background and foreground colors */
 body {
     background-color: white;
 }
-header{
+header {
     background-color: rgba(130,206,235, .80);
 }
 nav a:hover{
@@ -41,14 +41,12 @@ nav a:hover{
     background-color: #7bc4d5;
     color: #144365;
 }
-#background{
-    background-color: #144365;
-}
 .msg {
     background-color: #144365;
 }
 footer {
     background-color: rgba(130,206,235, .80);
+    color:#144365;
 }
 .home-title {
     color: #144365;
@@ -62,9 +60,6 @@ h4 {
 .msg p {
     color:#FFFFFF;
 }
-footer {
-    color:#144365;
-}
 footer a {
     color:#144365;
     text-decoration: none;
@@ -73,13 +68,13 @@ footer a:hover {
     color:white;
 }
 footer p {
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 footer p a:hover {
     text-decoration: underline;
 }
 
-/* few widths */
+
 .logo {
     width: 80px;
 }
