@@ -1,15 +1,19 @@
+#content {
+    margin: 0 auto;
+}
+
 #background {
     background-color: darkgray;
     height: 400px;
-    position: relative;
     width: 1280px;
-    padding:0;
+    position: absolute;
 }
 
 .icon {
     border-radius: 50%;
-    padding:0;
     border: 10px solid grey;
     width: 300px;
-    margin: 30px;
+    position: relative;
+    margin: 1.9%;
 }
+    
