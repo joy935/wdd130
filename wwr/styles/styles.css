@@ -26,11 +26,12 @@ main section img {
 #background {
     height: 725px;
     background-color: #144365;
+    margin-bottom: 100px; /*NOT SURE*/
 }
 
 body {
     background-color: white;
-    font-family: Inter Tight;
+    font-family: Inter Tight; /*ADD ALTERNATIVES*/
     font-size: 22px;
     padding: 0;
     margin: 0;
@@ -46,7 +47,7 @@ nav a:hover{
     background-color: #FFFFFF;
     color: #144365;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 18px; /*ADD ALTERNATIVES*/
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
@@ -69,7 +70,7 @@ footer {
 .home-title {
     color: #144365;
     font-family: Castoro Titling;
-    font-size: 2em;
+    font-size: 2em; /*ADD ALTERNATIVES*/
     margin-top: 10px;
 }
 h4 {
@@ -80,7 +81,7 @@ h2 {
 }
 .msg h2 {
     color:#FFFFFF;
-    font-family: Castoro Titling;
+    font-family: Castoro Titling; /*ADD ALTERNATIVES*/
 }
 
 .msg p {
@@ -96,7 +97,7 @@ footer a:hover {
     color:white;
 }
 footer p {
-    font-size: 1.3em;
+    font-size: 1.3em; 
 }
 footer p a:hover {
     text-decoration: underline;
