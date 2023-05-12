@@ -56,11 +56,7 @@ nav a:hover{
     background-color: #7bc4d5;
     color: #144365;
 }
-.msg {
-    background-color: #144365;
-    line-height: 1.5em;
-    padding: 35px;
-}
+
 footer {
     background-color: rgba(130,206,235, .80);
     color:#144365;
@@ -125,4 +121,10 @@ footer .social img {
 }
 #hero-img {
     width: 100%;
+}
+.msg {
+    background-color: #144365;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px; /*NOT SURE*/
 }
