@@ -26,12 +26,12 @@ main section img {
 #background {
     height: 725px;
     background-color: #144365;
-    margin-bottom: 100px; /*NOT SURE*/
+    margin-bottom: 100px; /* Add more margins to create additional white space*/
 }
 
 body {
     background-color: white;
-    font-family: Inter Tight; /*ADD ALTERNATIVES*/
+    font-family: Inter Tight, Helvetica, sans-serif;
     font-size: 22px;
     padding: 0;
     margin: 0;
@@ -47,7 +47,7 @@ nav a:hover{
     background-color: #FFFFFF;
     color: #144365;
     text-decoration: none;
-    font-size: 18px; /*ADD ALTERNATIVES*/
+    font-size: 18px; 
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
@@ -65,8 +65,8 @@ footer {
 }
 .home-title {
     color: #144365;
-    font-family: Castoro Titling;
-    font-size: 2em; /*ADD ALTERNATIVES*/
+    font-family: Castoro Titling, Georgia, serif;
+    font-size: 2em;
     margin-top: 10px;
 }
 h4 {
@@ -75,9 +75,17 @@ h4 {
 h2 {
     margin: 0;
 }
+
+.msg {
+    background-color: #144365;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px; /* Add more margins to create additional white space*/
+}
+
 .msg h2 {
     color:#FFFFFF;
-    font-family: Castoro Titling; /*ADD ALTERNATIVES*/
+    font-family: Castoro Titling, Georgia, serif;
 }
 
 .msg p {
@@ -121,10 +129,4 @@ footer .social img {
 }
 #hero-img {
     width: 100%;
-}
-.msg {
-    background-color: #144365;
-    line-height: 1.5em;
-    padding: 35px;
-    margin-top: 200px; /*NOT SURE*/
 }
