@@ -16,6 +16,7 @@ nav {
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    color: rgba(130,206,235, .80); /* OR MAYBE PICK WHITE*/
 }
 #hero {
     display: grid;
@@ -24,6 +25,10 @@ nav {
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 
 .button-box {
