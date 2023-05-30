@@ -87,6 +87,9 @@ footer {
     color:#144365;
     padding: 25px 50px;
     margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .home-title {
     color: #144365;
@@ -141,6 +144,12 @@ footer .social img {
 }
 .card-img {
     border: 10px solid #144365;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 .logo {
     width: 80px;
