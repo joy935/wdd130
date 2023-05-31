@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #A89058   ;
+  --secondary-color: #FFEAB8 ;
+  --accent1-color: #F5D998;
+  --accent2-color: #4765A8;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Jim Nightshade", Cinzel, Literata, "Castoto Titling", Georgia, serif;
