@@ -1,3 +1,43 @@
-body {
+#content {
+    max-width: 300px;
     margin: 0 auto;
+}
+
+body {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+img {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.text {
+    font-size: 20px;
+    margin: 25px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: darkblue;
+    color: white;
+    font-size: 14px;
+    border-radius: 0px 0px 15px 15px;
+    padding: auto;
+
+}
+
+.column1 .column2 .column3 {
+    float: left;
+    width: 33.33%
+    column-rule-style: solid;
+    border: 1px solid lightgrey;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.column2 {
+    border-left: 1px solid lightgray ;
+    border-right: 1px solid lightgray;
 }
