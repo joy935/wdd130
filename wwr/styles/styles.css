@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Inter+Tight:wght@300&display=swap');
 
+/* HOME PAGE */
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -190,9 +191,12 @@ footer .social img {
     box-shadow: 5px 5px 10px black;
 }
 
+/* PAGE 2: RIVERS */
 
 
 
+
+/* MEDIA QUERIES */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
