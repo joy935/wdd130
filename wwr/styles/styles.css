@@ -242,9 +242,9 @@ footer .social img {
     grid-template-columns: 1fr 1fr 1fr;
 } */
 
-.rivers-idaho {
+/* .rivers-idaho {
     grid-row: 2/4;
-}
+} */
 .rivers-idaho-img {
     width: 100%;
     grid-column: 2/4;
@@ -252,9 +252,9 @@ footer .social img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
 }
-.rivers-utah {
+/* .rivers-utah {
     grid-row: 5/7;
-}
+} */
 .rivers-utah-img { 
     width: 100%;
     grid-column: 6/8;
@@ -262,9 +262,9 @@ footer .social img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
 }
-.rivers-arizona {
+/* .rivers-arizona {
     grid-row: 8/10;
-}
+} */
 .rivers-arizona-img {
     width: 100%;
     grid-column: 2/4;
