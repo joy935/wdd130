@@ -22,9 +22,31 @@
         </header>
 
         <div id="cover">
-            <div id="cover-box">
-                <img id="cover-img" src="images/rivers-cover-rafting15_600.jpg" alt="cover-image-river">
+
+            <div class="idaho-slideshow-container">
+                <div class="slides-fade">
+                    <div class="numbertext">1/3</div>
+                    <img src="images/rivers-cover-rafting15_600.jpg" style="width:100%" alt="carousel-river-1">
+                </div>
+                <div class="slides-fade">
+                    <div class="numbertext">2/3</div>
+                    <img src="images/c-rafting16_1024.jpg" style="width:100%" alt="carousel-river-2">
+                </div>
+                <div class="slides-fade">
+                    <div class="numbertext">3/3</div>
+                    <img src="images/c-rafting38_1024.jpg" style="width:100%" alt="carousel-river-3">
+                </div>
+
+                <a class="prev" onclick="plusslides(-1)">&#10094;</a>
+                <a class="next" onclick="plusslides(1)">&#10095;</a>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentslide(1)"></span>
+                    <span class="dot" onclick="currentslide(2)"></span>
+                    <span class="dot" onclick="currentslide(3)"></span>
+                </div>
             </div>
+
             <section id="cover-msg">
                 <h1 class="cover-title">Rivers</h1>
                 <h4 class="cover-title-second">Let's dive in</h4>
@@ -36,29 +58,7 @@
 
             <section class="rivers-idaho">
 
-                <div class="idaho-slideshow-container">
-                    <div class="slides-fade">
-                        <div class="numbertext">1/3</div>
-                        <img src="images/id-rafting33_600.jpg" style="width:100%" alt="idaho-river-1">
-                    </div>
-                    <div class="slides-fade">
-                        <div class="numbertext">2/3</div>
-                        <img src="images/id-rafting32_600.jpg" style="width:100%" alt="idaho-river-2">
-                    </div>
-                    <div class="slides-fade">
-                        <div class="numbertext">3/3</div>
-                        <img src="images/id-rafting26_600.jpg" style="width:100%" alt="idaho-river-3">
-                    </div>
-
-                    <a class="prev" onclick="plusslides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusslides(1)">&#10095;</a>
-
-                    <div style="text-align:center">
-                        <span class="dot" onclick="currentslide(1)"></span>
-                        <span class="dot" onclick="currentslide(2)"></span>
-                        <span class="dot" onclick="currentslide(3)"></span>
-                    </div>
-                </div>
+                <img class="rivers-utah-img" src="images/id-rafting33_600.jpg" alt="utah-river-1">
                 
                 <section class="idaho-msg">
                     <h2>Main Fork of the Salmon River, Idaho</h2>
@@ -76,7 +76,7 @@
 
             <section class="rivers-utah">
 
-                <img class="rivers-utah-img" src="images/ut-littlecolorado.jpg" alt="utah-river-1">
+                <img class="rivers-utah-img" src="images/ut1-rafting28_1024.jpg" alt="utah-river-1">
 
                 <section class="utah-msg">
                     <h2>Desolation and Gray Canyon, Utah</h2>
