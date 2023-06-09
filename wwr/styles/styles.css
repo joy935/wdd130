@@ -223,11 +223,30 @@ footer .social img {
 #cover-img {
     width: 100%;
 }
-#rivers-grid {
+.rivers-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
+    grid-template-rows: repeat(13, 1fr);
 }
+.rivers-idaho-img {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/5;
+}
+.rivers-utah-img {
+    width: 100%;
+    grid-column: 3/4;
+    grid-row: 6/9;
+}
+.rivers-arizona-img {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 10/13;
+}
+.idaho-msg {
+    grid-column: 2/4;
+}
+
 
 
 /* MEDIA QUERIES */
