@@ -305,18 +305,15 @@ footer .social img {
   .idaho-msg {
     grid-column: 5/10;
     grid-row: 1/5;
-    background-color: yellow;
   }
   .utah-msg {
     grid-column: 1/6;
     grid-row: 5/8;
-    background-color: blue;
 
   }
   .arizona-msg {
     grid-column: 5/10;
     grid-row: 8/10;
-    background-color: green;
   }
 
   
