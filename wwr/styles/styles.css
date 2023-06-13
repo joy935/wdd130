@@ -279,15 +279,18 @@ footer .social img {
   .idaho-msg {
     grid-column: 5/10;
     grid-row: 1/5;
+    margin: auto;
   }
   .utah-msg {
     grid-column: 1/6;
     grid-row: 5/8;
+    margin: auto;
 
   }
   .arizona-msg {
     grid-column: 5/10;
     grid-row: 8/10;
+    margin: auto;
   }
 
   
