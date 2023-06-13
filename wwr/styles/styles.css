@@ -295,6 +295,33 @@ footer .social img {
 
 
 /* CONTACT US PAGE */
+.contact-title {
+    text-align: center;
+}
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
   
 
 /* MEDIA QUERIES */

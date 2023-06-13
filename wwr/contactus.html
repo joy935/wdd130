@@ -8,7 +8,7 @@
     <title>Contact Us</title>
 </head>
 <body>
-    <div id="contact">
+    <div id="content">
         <header>
             <a id="logo_link" href="index.html">
                 <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
@@ -20,6 +20,18 @@
                 <a href="contactus.html">Contact Us</a>
             </nav>
         </header>
+
+        <div class="contact-title">
+        <h1>Contact Us</h1>
+        </div>
+        <div class="contact-form">
+          <form action="submit.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
 
 
         <footer>
