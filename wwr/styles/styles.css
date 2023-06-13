@@ -191,7 +191,8 @@ footer .social img {
     box-shadow: 5px 5px 10px black;
 }
 
-/* PAGE 2: RIVERS */
+
+/* PAGE 2: RIVERS PAGE */
 #cover-msg h1, #cover-msg h4 {
     text-align: center;
     color: white;
@@ -223,67 +224,103 @@ footer .social img {
 #cover-img {
     width: 100%;
 }
-.rivers-grid {
+/* .rivers-grid {
     padding-top: 50px;
     padding-bottom: 50px;
 
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
 }
 .rivers-grid h2 {
     font-family: "Castoro Titling", Georgia, serif;
-    font-size: ;
 }
 .rivers-grid p {
     font-family: "Inter Tight", Helvetica, sans-serif;
 }
-/* .rivers-idaho .rivers-utah .rivers-arizona {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-} */
+.rivers-idaho {
+    grid-column: ;
+    grid-row: ;
+    display: flex;
+}
+.rivers-utah {
+    grid-column: ;
+    grid-row: ;
+    display: flex;
+}
+.rivers-arizona {
+    grid-column: ;
+    grid-row: ;
+    display: flex;
 
-/* .rivers-idaho {
-    grid-row: 2/4;
-} */
-.rivers-idaho-img {
+}
+
+
+
+/* } */ */ */ */
+
+
+.rivers-grid {
+    display: grid;
+  }
+  
+  .rivers-idaho,
+  .rivers-utah,
+  .rivers-arizona {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    padding-top: 30px;
+  }
+  
+  .rivers-idaho-img,
+  .rivers-utah-img,
+  .rivers-arizona-img {
     width: 100%;
-    grid-column: 2/4;
+    max-width: 100%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
-}
-/* .rivers-utah {
+  }
+
+  .rivers-idaho-img {
+    grid-column: 1/5;
+    grid-row: 1/5;
+  }
+
+  .rivers-utah-img {
+    grid-column: 6/10;
     grid-row: 5/7;
-} */
-.rivers-utah-img { 
-    width: 100%;
-    grid-column: 6/8;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-}
-/* .rivers-arizona {
+  }
+
+  .rivers-arizona-img {
+    grid-column: 1/5;
     grid-row: 8/10;
-} */
-.rivers-arizona-img {
-    width: 100%;
-    grid-column: 2/4;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-}
-.idaho-msg {
+  }
+
+  .idaho-msg, .utah-msg, .arizona-msg {
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+  
+  .idaho-msg {
+    grid-column: 5/10;
+    grid-row: 1/5;
     background-color: yellow;
-    grid-column: 5/8;
-}
-.utah-msg {
+  }
+  .utah-msg {
+    grid-column: 1/6;
+    grid-row: 5/8;
     background-color: blue;
-    grid-column: 2/5;
-}
-.arizona-msg {
-    background-color: purple;
-    grid-column: 5/8;
-}
+
+  }
+  .arizona-msg {
+    grid-column: 5/10;
+    grid-row: 8/10;
+    background-color: green;
+  }
+
+  
+  
 
 
 /* MEDIA QUERIES */
