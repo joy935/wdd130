@@ -296,7 +296,10 @@ footer .social img {
 
 /* CONTACT US PAGE */
 .contact-title {
+    padding-top: 200px;
     text-align: center;
+    font-family: "Castoro Titling", Georgia, serif;
+    color: #144365;
 }
 .contact-form {
     max-width: 400px;
@@ -316,7 +319,7 @@ footer .social img {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #144365;
     color: white;
     border: none;
     border-radius: 4px;
