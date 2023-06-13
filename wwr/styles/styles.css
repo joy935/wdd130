@@ -224,40 +224,6 @@ footer .social img {
 #cover-img {
     width: 100%;
 }
-/* .rivers-grid {
-    padding-top: 50px;
-    padding-bottom: 50px;
-
-    display: flex;
-    grid-template-columns: repeat(5, 1fr);
-}
-.rivers-grid h2 {
-    font-family: "Castoro Titling", Georgia, serif;
-}
-.rivers-grid p {
-    font-family: "Inter Tight", Helvetica, sans-serif;
-}
-.rivers-idaho {
-    grid-column: ;
-    grid-row: ;
-    display: flex;
-}
-.rivers-utah {
-    grid-column: ;
-    grid-row: ;
-    display: flex;
-}
-.rivers-arizona {
-    grid-column: ;
-    grid-row: ;
-    display: flex;
-
-}
-
-
-
-/* } */ */ */ */
-
 
 .rivers-grid {
     display: grid;
@@ -268,7 +234,7 @@ footer .social img {
   .rivers-arizona {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    padding-top: 30px;
+    padding-top: 150px;
   }
   
   .rivers-idaho-img,
@@ -297,11 +263,19 @@ footer .social img {
   }
 
   .idaho-msg, .utah-msg, .arizona-msg {
-    padding-left: 20px;
-    padding-right: 20px;
-
+    padding-left: 30px;
+    padding-right: 30px;
   }
   
+  .idaho-msg h2, .utah-msg h2, .arizona-msg h2 {
+    font-family: "Castoro Titling", Georgia, serif;
+    color: #7bc4d5;
+  }
+
+  .idaho-msg p, .utah-msg p, .arizona-msg p {
+    font-family: "Inter Tight", Helvetica, sans-serif;
+    color: #144365;
+  }
   .idaho-msg {
     grid-column: 5/10;
     grid-row: 1/5;
@@ -317,8 +291,6 @@ footer .social img {
   }
 
   
-  
-
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 900px) {
