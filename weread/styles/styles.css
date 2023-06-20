@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Cinzel:wght@500&family=Instrument+Sans&family=Jim+Nightshade&family=Lato&family=Literata&family=Open+Sans:wght@500&display=swap');
+
+/* HOME PAGE */
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: white;
+    font-family: "Open Sans", "Instrument Sans", Lato, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER NAVIGATION BAR */
+nav a {
+    text-align: center;
+    color: #A89058;
+    text-decoration: none;
+    padding: 35px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+header {
+    background-color: #FFEAB8;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+/* FOOTER NAVIGATION BAR */
