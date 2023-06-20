@@ -31,5 +31,46 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
 }
+nav a:hover {
+    background-color: #4765A8;
+    color: white;
+}
+.logo {
+    width: 180px;
+}
+#logo_link {
+    padding-left: 5px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
 
 /* FOOTER NAVIGATION BAR */
+footer {
+    background-color: #FFEAB8;
+    color: #A89058;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+footer a {
+    color: #A89058;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #4765A8;
+}
+footer p {
+    font-size: 1.1em;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
