@@ -47,12 +47,24 @@ main section {
 main section img {
     box-sizing: border-box;
 }
-
 #background {
     height: 725px;
     background-color: #FFEAB8;
     grid-column: 1/9; 
     grid-row: 2/3;
+}
+.see-more {
+    background-color: #FFFFFF;
+    color: #4765A8;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.see-more:hover {
+    background-color: #A89058;
+    color: #FFFFFF;
 }
 
 /* HEADER NAVIGATION BAR */
@@ -83,6 +95,37 @@ nav a:hover {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+}
+h2 {
+    margin: 0;
+}
+.welcome-msg h2, .fiction-msg h2, .nonfiction-msg h2, .discover-msg h2 {
+    color: #A89058;
+    font-family: "Jim Nightshade", Cinzel, Literata, "Castoto Titling", Georgia, serif;
+}
+.welcome-msg p, .fiction-msg p, .nonfiction-msg p, .discover-msg p {
+    color: #4765A8;
+    font-family: "Open Sans", "Instrument Sans", Lato, Helvetica, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.welcome-card, .discover-card {
+    margin: 200px 0;
+}
+.fiction-card, .nonfiction-card {
+
+}
+.card-img {
+    border: 10px solid #4765A8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.section-img {
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.section-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 
 /* FOOTER NAVIGATION BAR */
