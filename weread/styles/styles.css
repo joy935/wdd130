@@ -47,12 +47,6 @@ main section {
 main section img {
     box-sizing: border-box;
 }
-#background {
-    height: 725px;
-    background-color: #FFEAB8;
-    grid-column: 1/9; 
-    grid-row: 2/3;
-}
 .see-more {
     background-color: #FFFFFF;
     color: #4765A8;
@@ -66,6 +60,90 @@ main section img {
     background-color: #A89058;
     color: #FFFFFF;
 }
+h2 {
+    margin: 0;
+}
+.welcome-msg h2, .fiction-msg h2, .nonfiction-msg h2, .discover-msg h2 {
+    color: #A89058;
+    font-family: "Jim Nightshade", Cinzel, Literata, "Castoto Titling", Georgia, serif;
+}
+.welcome-msg p, .fiction-msg p, .nonfiction-msg p, .discover-msg p {
+    color: #4765A8;
+    font-family: "Open Sans", "Instrument Sans", Lato, Helvetica, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.welcome-card, .discover-card {
+    margin: 200px 0;
+}
+.welcome-img, .discover-img {
+    border: 10px solid #4765A8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.fiction-img, .nonfiction-img {
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.fiction-img:hover, .nonfiction-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+/*grid*/
+.home-grid {
+    display: grid;
+}
+.welcome-card, .fiction-card, .nonfiction-card, .discover-card 
+{
+    grid-template-columns: repeat(13, 1fr);
+}
+#background {
+    height: 725px;
+    background-color: #FFEAB8;
+    grid-column: 1/13; 
+    grid-row: 5/13;
+    z-index: -1;
+}
+.welcome-img {
+    width: 100%;
+    grid-column: 3/5;
+    grid-row: 2/4;
+}
+.fiction-img {
+    width: 100%;
+    grid-column: 3/6;
+    grid-row: 6/8;
+}
+.nonfiction-img {
+    width: 100%;
+    grid-column: 9/12;
+    grid-row: 6/8;
+}
+.discover-img {
+    width: 100%;
+    grid-column: 3/5;
+    grid-row: 14/16;
+}
+.welcome-msg {
+    margin: auto;
+    grid-column: 7/12;
+    grid-row: 2/4;
+}
+.fiction-msg {
+    margin: auto;
+    grid-column: 3/6;
+    grid-row: 9/11;
+}
+.nonfiction-msg {
+    margin: auto;
+    grid-column: 9/12;
+    grid-row: 9/11;
+}
+.discover-msg {
+    margin: auto;
+    grid-column: 7/12;
+    grid-row: 14/16;
+}
+
 
 /* HEADER NAVIGATION BAR */
 nav a {
@@ -95,37 +173,6 @@ nav a:hover {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
-}
-h2 {
-    margin: 0;
-}
-.welcome-msg h2, .fiction-msg h2, .nonfiction-msg h2, .discover-msg h2 {
-    color: #A89058;
-    font-family: "Jim Nightshade", Cinzel, Literata, "Castoto Titling", Georgia, serif;
-}
-.welcome-msg p, .fiction-msg p, .nonfiction-msg p, .discover-msg p {
-    color: #4765A8;
-    font-family: "Open Sans", "Instrument Sans", Lato, Helvetica, sans-serif;
-    font-size: .8em;
-    padding-bottom: 15px;
-}
-.welcome-card, .discover-card {
-    margin: 200px 0;
-}
-.fiction-card, .nonfiction-card {
-
-}
-.card-img {
-    border: 10px solid #4765A8;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-.section-img {
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-.section-img:hover {
-    opacity: .6;
-    transform: scale(1.1);
 }
 
 /* FOOTER NAVIGATION BAR */
