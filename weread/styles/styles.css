@@ -98,8 +98,7 @@ h2 {
 .discover-card 
 {
     display: grid;
-    grid-template-columns: repeat(13, 1fr);
-    padding-top: 150px;
+    grid-template-columns: repeat(10, 1fr);
 }
 .welcome-img, 
 .fiction-img, 
@@ -108,50 +107,49 @@ h2 {
     width: 100%;
     max-width: 100%;
     background-color: white;
-    margin-bottom: 25px;
 }
 #background {
     height: 725px;
     background-color: #FFEAB8;
-    grid-column: 1/13; 
-    grid-row: 5/13;
+    grid-column: 1/10; 
+    grid-row: 5/10;
     z-index: -1;
 }
 .welcome-img {
-    grid-column: 1/4;
-    grid-row: 1/4;
+    grid-column: 1/5;
+    grid-row: 1/5;
 }
 .fiction-img {
-    grid-column: 1/6;
-    grid-row: 4/8;
+    grid-column: 1/5;
+    grid-row: 5/10;
 }
 .nonfiction-img {
-    grid-column: 7/13;
-    grid-row: 4/8;
+    grid-column: 6/10;
+    grid-row: 5/10;
 }
 .discover-img {
-    grid-column: 1/4;
-    grid-row: 8/13;
+    grid-column: 1/5;
+    grid-row: 10/15;
 }
 .welcome-msg {
     margin: auto;
-    grid-column: 4/13;
-    grid-row: 1/4;
+    grid-column: 6/10;
+    grid-row: 1/5;
 }
 .fiction-msg {
     margin: auto;
-    grid-column: 1/6;
-    grid-row: 8/11;
+    grid-column: 1/5;
+    grid-row: 10/15;
 }
 .nonfiction-msg {
     margin: auto;
-    grid-column: 9/12;
-    grid-row: 9/11;
+    grid-column: 5/10;
+    grid-row: 10/15;
 }
 .discover-msg {
     margin: auto;
-    grid-column: 7/12;
-    grid-row: 14/16;
+    grid-column: 5/10;
+    grid-row: 15/20;
 }
 
 
