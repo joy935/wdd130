@@ -113,7 +113,7 @@ h2 {
     background-color: #FFEAB8;
     grid-column: 1/3; 
     grid-row: 2/4;
-    z-index: -5;
+    z-index: -1;
 }
 .welcome-img {
     grid-column: 1/2;
