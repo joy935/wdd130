@@ -394,6 +394,11 @@ footer .social img {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
     margin-left: 0.5em;
+    margin-top: 1.5em;
+  }
+
+  button:hover {
+    color:#F5DE73;
   }
 #feedback {
     background-color: antiquewhite;
