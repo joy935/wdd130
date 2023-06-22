@@ -76,6 +76,9 @@ h2 {
 .welcome-card {
     margin: 200px 0;
 }
+.discover-card {
+    margin: 200px 0;
+}
 .welcome-img, .discover-img {
     border: 10px solid #4765A8;
     box-shadow: 5px 5px 10px #6f7364;
@@ -110,13 +113,6 @@ h2 {
     background-color: white;
     box-sizing: border-box;
 }
-#background {
-    height: 300px;
-    background-color: #FFEAB8;
-    grid-column: 1/3; 
-    grid-row: 2/4;
-    z-index: -1;
-}
 .welcome-img {
     grid-column: 1/2;
     grid-row: 1/2;
@@ -129,35 +125,33 @@ h2 {
 .fiction-img {
     grid-column: 1/2;
     grid-row: 2/3;
-    border: solid purple;
 }
 .fiction-msg {
     margin: auto;
     grid-column: 1/2;
     grid-row: 3/4;
-    border: solid purple;
     padding-top: 20px;
 }
 .nonfiction-img {
     grid-column: 2/3;
     grid-row: 2/3;
-    border: solid green;
 }
 .nonfiction-msg {
     margin: auto;
     grid-column: 2/3;
     grid-row: 3/4;
-    border: solid green;
     padding-top: 20px;
 }
 .discover-img {
     grid-column: 1/2;
     grid-row: 4/5;
+    padding-top: 20px;
 }
 .discover-msg {
     margin: auto;
     grid-column: 2/3;
     grid-row:4/5;
+    padding-top: 20px;
 }
 .welcome-msg,
 .fiction-msg,
@@ -165,6 +159,14 @@ h2 {
 .discover-msg {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+#background {
+    height: 300px;
+    background-color: #FFEAB8;
+    grid-column: 1/3; 
+    grid-row: 2/4;
+    z-index: -10;
 }
 
 
