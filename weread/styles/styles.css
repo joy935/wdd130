@@ -73,7 +73,7 @@ h2 {
     font-size: .8em;
     padding-bottom: 15px;
 }
-.welcome-card, .discover-card {
+.welcome-card {
     margin: 200px 0;
 }
 .welcome-img, .discover-img {
@@ -149,18 +149,27 @@ h2 {
     grid-column: 1/2;
     grid-row: 3/4;
     border: solid purple;
+    padding-top: 20px;
 }
 .nonfiction-msg {
     margin: auto;
     grid-column: 2/3;
     grid-row: 3/4;
     border: solid green;
+    padding-top: 20px;
 }
 .discover-msg {
     margin: auto;
     grid-column: 2/3;
     grid-row:4/5;
     border: solid red;
+}
+.welcome-msg,
+.fiction-msg,
+.nonfiction-msg,
+.discover-msg {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
