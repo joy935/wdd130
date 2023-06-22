@@ -91,16 +91,18 @@ h2 {
 /*grid*/
 .home-grid {
     display: grid;
-    grid-template-columns: 1fr;
 }
 .welcome-card, 
-.fiction-card, 
-.nonfiction-card, 
 .discover-card 
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+}
+.fiction-card, 
+.nonfiction-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .welcome-img, 
 .fiction-img, 
@@ -111,8 +113,9 @@ h2 {
     background-color: white;
     box-sizing: border-box;
 }
+  
 #background {
-    height: 725px;
+    height: 300px;
     background-color: #FFEAB8;
     grid-column: 1/3; 
     grid-row: 2/4;
@@ -121,7 +124,6 @@ h2 {
 .welcome-img {
     grid-column: 1/2;
     grid-row: 1/2;
-    border: solid black;
 }
 .fiction-img {
     grid-column: 1/2;
@@ -136,13 +138,11 @@ h2 {
 .discover-img {
     grid-column: 1/2;
     grid-row: 4/5;
-    border: solid red;
 }
 .welcome-msg {
     margin: auto;
     grid-column: 2/3;
     grid-row: 1/2;
-    border: solid black;
 }
 .fiction-msg {
     margin: auto;
@@ -162,7 +162,6 @@ h2 {
     margin: auto;
     grid-column: 2/3;
     grid-row:4/5;
-    border: solid red;
 }
 .welcome-msg,
 .fiction-msg,
