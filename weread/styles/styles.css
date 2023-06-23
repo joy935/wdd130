@@ -266,14 +266,35 @@ footer .social img {
 .fiction-grid {
     display: grid;
 }
-.fiction-first {
+.fiction-first,
+.fiction-second {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 80px;
+}
+.badcree-img,
+.daughter-img,
+.klara-img,
+.everyone-img,
+.less-img {
+    width: 80%;
+    box-shadow: 5px 5px 10px #6f7364;
+    border: solid 20px #FFEAB8;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.badcree-msg,
+.daughter-msg,
+.naruto-msg,
+.klara-msg,
+.everyone-msg,
+.less-msg {
+    padding: 30px;
 }
 .badcree-img {
     grid-column: 1/2;
     grid-row: 1/2;
-    width: 100%;
 }
 .badcree-msg {
     grid-column: 1/2;
@@ -282,21 +303,50 @@ footer .social img {
 .daughter-img {
     grid-column: 2/3;
     grid-row: 1/2;
-    width: 100%;
 }
 .daughter-msg {
     grid-column: 2/3;
     grid-row: 2/3;
 }
-.less-img {
+.naruto-img {
     grid-column: 3/4;
     grid-row: 1/2;
-    width: 100%;
+    width: 70%;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin: 0 auto;
+    box-sizing: border-box;
+    align-self: center;
 }
-.less-msg {
+.naruto-msg {
     grid-column: 3/4;
     grid-row: 2/3;
 }
+.klara-img {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.klara-msg {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.everyone-img {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.everyone-msg {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.less-img{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.less-msg {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+
 
 /* NONFICTION CHILD PAGE */
 
