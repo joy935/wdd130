@@ -247,8 +247,22 @@ footer .social img {
 }
 
 /* FICTION CHILD PAGE */
-
-
+.fiction-title h1 {
+    color: #A89058;
+    font-family: "Jim Nightshade", Cinzel, Literata, "Castoto Titling", Georgia, serif;
+    font-size: 2.2em;
+}
+.fiction-title p,
+.fiction-grid p {
+    color: #4765A8;
+    font-family: "Open Sans", "Instrument Sans", Lato, Helvetica, sans-serif;
+    font-size: .8em;
+}
+.fiction-grid h2 {
+    color: #A89058;
+    font-family: "Jim Nightshade", Cinzel, Literata, "Castoto Titling", Georgia, serif;
+    font-size: 2em;
+}
 
 /* NONFICTION CHILD PAGE */
 
