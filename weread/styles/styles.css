@@ -263,6 +263,40 @@ footer .social img {
     font-family: "Jim Nightshade", Cinzel, Literata, "Castoto Titling", Georgia, serif;
     font-size: 2em;
 }
+.fiction-grid {
+    display: grid;
+}
+.fiction-first {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.badcree-img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+}
+.badcree-msg {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.daughter-img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 100%;
+}
+.daughter-msg {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.less-img {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 100%;
+}
+.less-msg {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
 
 /* NONFICTION CHILD PAGE */
 
