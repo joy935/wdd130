@@ -349,5 +349,104 @@ footer .social img {
 
 
 /* NONFICTION CHILD PAGE */
+.nonfiction-title h1 {
+    color: #A89058;
+    font-family: "Jim Nightshade", Cinzel, Literata, "Castoto Titling", Georgia, serif;
+    font-size: 2.2em;
+}
+.nonfiction-grid p {
+    color: #4765A8;
+    font-family: "Open Sans", "Instrument Sans", Lato, Helvetica, sans-serif;
+    font-size: .8em;
+}
+.nonfiction-grid h2 {
+    color: #A89058;
+    font-family: "Jim Nightshade", Cinzel, Literata, "Castoto Titling", Georgia, serif;
+    font-size: 2em;
+}
+.nonfiction-grid {
+    display: grid;
+}
+.nonfiction-first,
+.nonfiction-second {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 80px;
+}
+.air-img,
+.mom-img,
+.ashes-img,
+.indian-img,
+.deus-img {
+    width: 80%;
+    box-shadow: 5px 5px 10px #6f7364;
+    border: solid 20px #FFEAB8;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.spare-msg,
+.air-msg,
+.mom-msg,
+.ashes-msg,
+.indian-msg,
+.deus-msg {
+    padding: 30px;
+}
+.spare-img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 70%;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin: 0 auto;
+    box-sizing: border-box;
+    align-self: center;
+}
+.spare-msg {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.air-img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.air-msg {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.mom-img {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.mom-msg {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.ashes-img {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.ashes-msg {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.indian-img {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.indian-msg {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.deus-img{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.deus-msg {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+
 
 /* CONTACT US CHILD PAGE */
