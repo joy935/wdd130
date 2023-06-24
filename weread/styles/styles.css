@@ -66,11 +66,12 @@ h2 {
 .welcome-msg h2, .fiction-msg h2, .nonfiction-msg h2, .discover-msg h2 {
     color: #A89058;
     font-family: "Jim Nightshade", Cinzel, Literata, "Castoto Titling", Georgia, serif;
+    font-size: 1.1em;
 }
 .welcome-msg p, .fiction-msg p, .nonfiction-msg p, .discover-msg p {
     color: #4765A8;
     font-family: "Open Sans", "Instrument Sans", Lato, Helvetica, sans-serif;
-    font-size: .8em;
+    font-size: 0.9em;
     padding-bottom: 15px;
 }
 .welcome-card {
@@ -166,8 +167,8 @@ h2 {
 .fiction-msg,
 .nonfiction-msg,
 .discover-msg {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .fiction-card {
