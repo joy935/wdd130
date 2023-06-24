@@ -363,11 +363,12 @@ footer .social img {
     position: absolute;
     top: 0;
     left: 0;
-    width: 33%;
+    width: 30%;
     height: 87%;
     background-color: #4765A8;
     opacity: 0.8;
     z-index: -1;
+    border-left: solid 20px #FFFFFF;
 }
 
 /* NONFICTION CHILD PAGE */
@@ -487,11 +488,12 @@ footer .social img {
     position: absolute;
     top: 0;
     left: 0;
-    width: 33%;
+    width: 30%;
     height: 85%;
     background-color: #4765A8;
     opacity: 0.8;
     z-index: -1;
+    border-left: solid 20px #FFFFFF;
 }
 
 /* CONTACT US CHILD PAGE */
