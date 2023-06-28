@@ -2,3 +2,19 @@ section {
     width: 50%;
     border: 1px solid;
   }
+
+  .block2, .block4{
+    margin: 0 auto;
+  }
+
+  .block3 {
+    margin-left: auto;
+  }
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
