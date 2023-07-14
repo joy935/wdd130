@@ -209,6 +209,7 @@ nav a:hover {
 }
 .logo {
     width: 180px;
+    padding-left: 50px;
 }
 #logo_link {
     padding-left: 5px;
