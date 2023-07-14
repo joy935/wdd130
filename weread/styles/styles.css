@@ -587,8 +587,8 @@ footer .social img {
 .contact-title {
     padding-top: 200px;
     text-align: center;
-    font-family: "Castoro Titling", Georgia, serif;
-    color: #144365;
+    font-family: "Jim Nightshade", Cinzel, Literata, "Castoto Titling", Georgia, serif;
+    color: #4765A8;
 }
 .contact-form {
     max-width: 400px;
@@ -608,7 +608,7 @@ footer .social img {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #144365;
+    background-color: #4765A8;
     color: white;
     border: none;
     border-radius: 4px;
@@ -621,11 +621,11 @@ footer .social img {
     width: 400px;
     /* Form outline */
     padding: 1em;
-    border: 1px solid #ccc;
+    border: 1px solid #A89058;
     border-radius: 1em;
     font-family: "Inter Tight", Helvetica, sans-serif;
     font-size: 18px;
-    color: #144365;
+    color: #A89058;
   }
   
   ul {
@@ -662,7 +662,7 @@ footer .social img {
   input:focus,
   textarea:focus {
     /* Additional highlight for focused elements */
-    border-color: #144365;
+    border-color: #A89058;
   }
   
   textarea {
