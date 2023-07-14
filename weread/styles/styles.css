@@ -253,7 +253,7 @@ footer .social img {
     color: #A89058;
     font-family: "Jim Nightshade", Cinzel, Literata, "Castoto Titling", Georgia, serif;
     font-size: 2.2em;
-    padding-left: 20px;
+    padding-left: 60px;
     padding-top: 60px;
 }
 .fiction-title p,
@@ -288,6 +288,8 @@ footer .social img {
     border: solid 20px #FFEAB8;
     margin: 0 auto;
     box-sizing: border-box;
+    padding: 1px;
+    
 }
 .badcree-msg,
 .daughter-msg,
@@ -296,6 +298,8 @@ footer .social img {
 .everyone-msg,
 .less-msg {
     padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .badcree-img {
     grid-column: 1/2;
@@ -329,6 +333,7 @@ footer .social img {
     margin: 0 auto;
     box-sizing: border-box;
     align-self: center;
+    padding: 1px;
 }
 .naruto-msg {
     grid-column: 1/2;
@@ -446,6 +451,7 @@ footer .social img {
     font-size: 2.2em;
     padding-left: 20px;
     padding-top: 60px;
+    padding-left: 60px;
 }
 .nonfiction-grid p {
     color: #4765A8;
@@ -478,6 +484,7 @@ footer .social img {
     border: solid 20px #FFEAB8;
     margin: 0 auto;
     box-sizing: border-box;
+    padding: 1px;
 }
 .spare-msg,
 .air-msg,
@@ -486,6 +493,8 @@ footer .social img {
 .indian-msg,
 .deus-msg {
     padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 #spare-img {
     grid-column: 1/2;
@@ -495,6 +504,7 @@ footer .social img {
     margin: 0 auto;
     box-sizing: border-box;
     align-self: center;
+    padding: 1px;
 }
 .spare-msg {
     grid-column: 1/2;
